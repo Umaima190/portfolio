@@ -381,6 +381,35 @@ p {
 	overflow: hidden;
 	position: relative;
 }
+btn-group{
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	align-items: center;
+	margin-top: 20px;
+}
+#projects .project-item a{
+	text-decoration: none;
+	font-size: 30px;
+	padding: 12px 4px;
+	font-weight: 600;
+	color: black;
+}
+#projects .project-item .Btn{
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	color: white;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	transition: .5s ease;
+	border: 1px solid black;
+}
+#projects .project-item .Btn:hover{
+	background-image: none;
+	background-color: white;
+	color: black;
+	transform: translateY(-12px);
+}
 #projects .project-img:after {
 	content: '';
 	position: absolute;
